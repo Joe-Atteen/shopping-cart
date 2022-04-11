@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    margin-bottom: 2rem;
+}
+
+.top{
+    margin-bottom: 2rem;
+}
+
+.ban img{
+    width: 100%;
+}
+
+.line{
+    margin-bottom: 2rem;
+}
+
+.sheet{
+    width: 95%;
+    margin-bottom: 2.5rem;
+}
+
+.col1 .col2, .col3, .col4, .col5{
+    margin: 1rem;
+}
+
+.col1{
+    display: inline-flexbox;
+}
+
+.size{
+    background-color: rgb(233, 229, 229);
+    border-radius: 3rem;
+    width: 2rem;
+    margin: 1rem;
+    height: 2rem;
+    font-size: .7rem;
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.col2 img{
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.col2 p{
+    text-align: center;
+}
+
+button{
+    height: 3rem;
+    width: 100%;
+    margin: auto;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: .3rem;
+}
+
+button:hover{
+    background-color: goldenrod;
+}
+
+button p{
+    padding-top: .6rem;
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.alt{
+    color: rgb(114, 114, 114);
+}
+
+.float{
+    font-size: .5rem;
+    width: 3.4rem;
+    height: 1.3rem;
+    background-color: black;
+    color: white;
+    padding-top: .2rem;
+    margin-left: 12rem;
+    transform: translateY(-2630%);
+}
+
+.search{
+    padding-left: 38.5rem;
+    display: flex;
+}
+
+.search p{
+    margin-right: 1rem;
+    transform: translateY(30%);
+}
+
+#lang{
+    width: 9rem;
+    height: 2.5rem;
+    border: 1px solid rgb(224, 223, 223);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 2rem auto;
+}
+
+footer p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transform: translateY(55%);
+}
+
+
